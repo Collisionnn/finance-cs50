@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    QUOTED
+{% endblock %}
+
+{% block main %}
+    <p>A share for {{stock.name}}</p>
+    <br>
+    <p> has a current price of {{usd(stock.price)}}</p>
+{% endblock %}
